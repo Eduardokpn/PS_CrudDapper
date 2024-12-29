@@ -13,7 +13,7 @@ namespace ApiPS.Controllers
     {
         private readonly IPessoaRepository _pessoaRepository;
         private readonly IEnderecoRepository _enderecoRepository;
-        public PessoaController(IPessoaRepository pessoaRepository, IEnderecoRepository enderecoRepository,IConfiguration configuration)
+        public PessoaController(IPessoaRepository pessoaRepository, IEnderecoRepository enderecoRepository)
         {
             _pessoaRepository = pessoaRepository;
             _enderecoRepository = enderecoRepository;

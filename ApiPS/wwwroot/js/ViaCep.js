@@ -18,18 +18,26 @@
 
             if (!response.ok) {
                 throw new Error('Erro ao buscar informações do CEP');
+                logradouro.value = null;
+                cidade.value = null;
+                estado.value = null;
+
             }
 
             const responseCep = await response.json();
 
             if (responseCep.erro) {
                 throw new Error('CEP não encontrado');
+                logradouro.value = null;
+                cidade.value = null;
+                estado.value = null;
+
             }
 
             // Preenchendo os campos
-            logradouro.value = responseCep.logradouro || '';
-            cidade.value = responseCep.localidade || '';
-            estado.value = responseCep.uf || '';
+            logradouro.value = responseCep.logradouro;
+            cidade.value = responseCep.localidade;
+            estado.value = responseCep.uf;
         } catch (error) {
             console.error(error);
             alert(error.message);

@@ -10,13 +10,11 @@ namespace ApiPS.Controllers
 
     public class EnderecoController : Controller
     {
-        private readonly string _conectionString;
+
         private readonly IEnderecoRepository _enderecoRepository;
         public EnderecoController(IConfiguration configuration, IEnderecoRepository enderecoRepository) 
         {
-            _conectionString = configuration.GetConnectionString("ConexaoNuvem");
             _enderecoRepository = enderecoRepository;
-        
         }
 
         [HttpPost]

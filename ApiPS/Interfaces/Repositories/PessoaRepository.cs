@@ -15,10 +15,7 @@ namespace ApiPS.Interfaces.Repositories
             _connectionString = configuration.GetConnectionString("ConexaoNuvem");
 
         }
-        /// <summary>
-        /// Obtém todas as pessoas cadastradas no banco de dados.
-        /// </summary>
-        /// <returns>Uma lista de objetos <see cref="Pessoas"/> contendo todas as pessoas.</returns>
+
         public IEnumerable<Pessoas> GetAll()
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -28,11 +25,7 @@ namespace ApiPS.Interfaces.Repositories
             }
         }
 
-        /// <summary>
-        /// Adiciona uma nova pessoa ao banco de dados.
-        /// </summary>
-        /// <param name="pessoa">O objeto <see cref="Pessoas"/> contendo os dados da pessoa a ser cadastrada.</param>
-        /// <returns>O ID gerado para a nova pessoa cadastrada.</returns>
+
         public int Add(Pessoas pessoa)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -45,11 +38,7 @@ namespace ApiPS.Interfaces.Repositories
             }
         }
 
-        /// <summary>
-        /// Obtém os dados de uma pessoa pelo ID.
-        /// </summary>
-        /// <param name="id">O ID da pessoa a ser recuperada.</param>
-        /// <returns>O objeto <see cref="Pessoas"/> correspondente ao ID informado, ou null se não encontrado.</returns>
+
         public Pessoas GetById(int id)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -60,23 +49,19 @@ namespace ApiPS.Interfaces.Repositories
                 return connection.QueryFirstOrDefault<Pessoas>(sqlPessoa, new { Id = id });
             }
         }
-        /// <summary>
-        /// Exclui uma pessoa pelo ID no banco de dados.
-        /// </summary>
-        /// <param name="id">O ID da pessoa cujos endereços serão excluidos.</param> <param name="id">O ID do endereço selecionado.</param>
+
         public void Excluir(int id)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
                 string sql = "Delete from Pessoas Where Id = @Id";
+                string sqlD = "DELETE FROM Enderecos WHERE PessoaId = @Id";
+                connection.Execute(sqlD, new { Id = id });
                 connection.Execute(sql, new { Id = id });
 
             }
         }
-        /// <summary>
-        /// Edita os dados de uma pessoa no banco de dados.
-        /// </summary>
-        /// <param name="endereco">O objeto <see cref="Pessoas"/> contendo os dados da pessoa a ser editada</param>
+
         public void Editar(Pessoas pessoa)
         {
             using (var connection = new SqlConnection(_connectionString))

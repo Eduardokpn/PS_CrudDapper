@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\views\\pessoa\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\views\\pessoa\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\views\\pessoa\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\views\\pessoa\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\ienderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\ienderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\wwwroot\\js\\viacep.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\wwwroot\\js\\viacep.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\models\\pessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\models\\pessoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 165,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,52 +63,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Views\\Pessoa\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "ApiPS\\Views\\Pessoa\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Views\\Pessoa\\Cadastrar.cshtml",
+              "RelativeToolTip": "ApiPS\\Views\\Pessoa\\Cadastrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T15:41:38.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEnderecoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\IEnderecoRepository.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Interfaces\\IEnderecoRepository.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\IEnderecoRepository.cs",
+              "RelativeToolTip": "ApiPS\\Interfaces\\IEnderecoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T15:15:52.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ViaCep.js",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\js\\ViaCep.js",
               "RelativeDocumentMoniker": "ApiPS\\wwwroot\\js\\ViaCep.js",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\js\\ViaCep.js",
               "RelativeToolTip": "ApiPS\\wwwroot\\js\\ViaCep.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-29T02:30:29.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Views\\Pessoa\\Editar.cshtml",
               "RelativeDocumentMoniker": "ApiPS\\Views\\Pessoa\\Editar.cshtml",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Views\\Pessoa\\Editar.cshtml",
               "RelativeToolTip": "ApiPS\\Views\\Pessoa\\Editar.cshtml",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAgwJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-29T01:35:52.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PessoaRepository.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
               "RelativeDocumentMoniker": "ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
               "RelativeToolTip": "ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwE8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T01:24:01.208Z"
+              "WhenOpened": "2024-12-29T01:24:01.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PessoaController.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\PessoaController.cs",
               "RelativeDocumentMoniker": "ApiPS\\Controllers\\PessoaController.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\PessoaController.cs",
               "RelativeToolTip": "ApiPS\\Controllers\\PessoaController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:19:55.214Z"
+              "WhenOpened": "2024-12-29T00:19:55.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -106,33 +146,49 @@
               "RelativeDocumentMoniker": "ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
               "RelativeToolTip": "ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:14:25.862Z"
+              "WhenOpened": "2024-12-29T00:14:25.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Pessoas.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Models\\Pessoas.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Models\\Pessoas.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Models\\Pessoas.cs",
+              "RelativeToolTip": "ApiPS\\Models\\Pessoas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T15:21:38.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IPessoaRepository.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\IPessoaRepository.cs",
               "RelativeDocumentMoniker": "ApiPS\\Interfaces\\IPessoaRepository.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\IPessoaRepository.cs",
               "RelativeToolTip": "ApiPS\\Interfaces\\IPessoaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:26:47.935Z"
+              "WhenOpened": "2024-12-29T00:26:47.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EnderecoController.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\EnderecoController.cs",
               "RelativeDocumentMoniker": "ApiPS\\Controllers\\EnderecoController.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\EnderecoController.cs",
               "RelativeToolTip": "ApiPS\\Controllers\\EnderecoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:15:11.44Z"
+              "WhenOpened": "2024-12-29T00:15:11.44Z",
+              "EditorCaption": ""
             }
           ]
         }
