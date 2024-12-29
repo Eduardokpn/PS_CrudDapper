@@ -30,29 +30,6 @@ Bootstrap
 
 JavaScript
 
-⚙️ Configuração do Ambiente
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-Configure a string de conexão no arquivo appsettings.json:
-
-{
-  "ConnectionStrings": {
-    "ConexaoNuvem": "Server=SEU_SERVIDOR;Database=SEU_BANCO;Trusted_Connection=True;"
-  }
-}
-
-Restaure os pacotes NuGet:
-
-dotnet restore
-
-Execute as migrações do banco de dados.
-
-Inicie o projeto:
-
-dotnet run
 
 🧩 Endpoints Principais
 
