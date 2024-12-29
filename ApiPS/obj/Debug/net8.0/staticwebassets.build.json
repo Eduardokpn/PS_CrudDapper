@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x08wjlhgdrXBmnPeldpJx3LkiQcg6tguFNwOvC4zWn0=",
+  "Hash": "2RRYMKjUG222jnWCnw32p8PYiVFKWQuunJo2vwd0hUE=",
   "Source": "ApiPS",
   "BasePath": "_content/ApiPS",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\js\\ViaCep.js",
+      "SourceId": "ApiPS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\",
+      "BasePath": "_content/ApiPS",
+      "RelativePath": "js/ViaCep.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ViaCep.js"
     },
     {
       "Identity": "C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

@@ -83,3 +83,4 @@ C:\Users\eduar\OneDrive\Área de Trabalho\Projetos\ApiPS\ApiPS\obj\Debug\net8.0\
 C:\Users\eduar\OneDrive\Área de Trabalho\Projetos\ApiPS\ApiPS\obj\Debug\net8.0\ApiPS.pdb
 C:\Users\eduar\OneDrive\Área de Trabalho\Projetos\ApiPS\ApiPS\obj\Debug\net8.0\ApiPS.genruntimeconfig.cache
 C:\Users\eduar\OneDrive\Área de Trabalho\Projetos\ApiPS\ApiPS\obj\Debug\net8.0\ref\ApiPS.dll
+C:\Users\eduar\OneDrive\Área de Trabalho\Projetos\ApiPS\ApiPS\obj\Debug\net8.0\ApiPS.sourcelink.json

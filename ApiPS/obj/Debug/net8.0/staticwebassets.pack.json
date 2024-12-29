@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\js\\ViaCep.js",
+      "PackagePath": "staticwebassets\\js\\ViaCep.js"
+    },
+    {
       "Id": "C:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Projetos\\ApiPS\\ApiPS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
