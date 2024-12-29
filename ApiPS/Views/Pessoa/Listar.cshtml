@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Listagem Pessoa";
+}
+
+<div class="mb-3">
+    <a href="@Url.Action("Cadastrar", "Pessoa")" class="btn btn-sm btn-primary">+ Cadastro</a>
+</div>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>CPF</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pessoa in Model)
+        {
+            <tr>
+                <td>
+                    <a href="@Url.Action("Editar", "Pessoa", new { id = pessoa.Id })">@pessoa.Nome</a>
+                </td>
+                <td>@pessoa.Telefone</td>
+                <td>@pessoa.CPF</td>
+                <td>
+                    <a href="@Url.Action("Editar", "Pessoa", new { id = pessoa.Id })" class="btn btn-sm btn-warning">Editar</a>
+                    <form method="post" action="@Url.Action("Excluir", "Pessoa")" style="display:inline;">
+                        <input type="hidden" name="id" value="@pessoa.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Tem certeza que deseja excluir esta pessoa?');">X</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

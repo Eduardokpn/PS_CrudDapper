@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\views\\pessoa\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\views\\pessoa\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\repositories\\enderecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\interfaces\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\interfaces\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|c:\\users\\eduar\\onedrive\\\u00E1rea de trabalho\\projetos\\apips\\apips\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86308C72-99AC-4935-B5B6-77C148368206}|ApiPS\\ApiPS.csproj|solutionrelative:apips\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Views\\Pessoa\\Editar.cshtml",
+              "RelativeDocumentMoniker": "ApiPS\\Views\\Pessoa\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Views\\Pessoa\\Editar.cshtml",
+              "RelativeToolTip": "ApiPS\\Views\\Pessoa\\Editar.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T01:35:52.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PessoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
+              "RelativeToolTip": "ApiPS\\Interfaces\\Repositories\\PessoaRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwE8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T01:24:01.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Controllers\\PessoaController.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "ApiPS\\Controllers\\PessoaController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:19:55.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnderecoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
+              "RelativeToolTip": "ApiPS\\Interfaces\\Repositories\\EnderecoRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:14:25.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPessoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\IPessoaRepository.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Interfaces\\IPessoaRepository.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Interfaces\\IPessoaRepository.cs",
+              "RelativeToolTip": "ApiPS\\Interfaces\\IPessoaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:26:47.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "ApiPS\\Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\eduar\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\ApiPS\\ApiPS\\Controllers\\EnderecoController.cs",
+              "RelativeToolTip": "ApiPS\\Controllers\\EnderecoController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:15:11.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

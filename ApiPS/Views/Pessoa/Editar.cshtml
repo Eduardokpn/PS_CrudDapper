@@ -1,0 +1,142 @@
+﻿@model ApiPS.Models.PessoaEnderecoViewModel
+
+@{
+    ViewBag.Title = "Editar Pessoa";
+}
+
+<h2>Editar Pessoa</h2>
+
+<!-- Formulário de Edição de Pessoa -->
+<form asp-action="Editar" method="post">
+    <input type="hidden" name="Id" value="@Model.Pessoa.Id" />
+
+    <div class="form-group">
+        <label>Nome</label>
+        <input name="Nome" class="form-control" value="@Model.Pessoa.Nome" required />
+    </div>
+    <div class="form-group">
+        <label>Telefone</label>
+        <input name="Telefone" class="form-control" value="@Model.Pessoa.Telefone" required />
+    </div>
+    <div class="form-group">
+        <label>CPF</label>
+        <input name="CPF" class="form-control" value="@Model.Pessoa.CPF" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+<hr />
+
+<!-- Seção de Endereços -->
+<h3>Endereços</h3>
+<button class="btn btn-success mb-2" data-bs-toggle="modal" data-bs-target="#modalCadastrarEndereco">+ Adicionar Endereço</button>
+
+<!-- Modal para Cadastrar Endereço -->
+<div class="modal fade" id="modalCadastrarEndereco" tabindex="-1" aria-labelledby="modalCadastrarEnderecoLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cadastrar Endereço</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-controller="Endereco" asp-action="Cadastrar" method="post">
+                    <input type="hidden" name="PessoaId" value="@Model.Pessoa.Id" />
+
+                    <div class="form-group">
+                        <label>CEP</label>
+                        <input type="number" class="form-control" name="CEP" required />
+                        <button type="button" class="btn btn-secondary mt-1">Consultar</button>
+                    </div>
+                    <div class="form-group">
+                        <label>Logradouro</label>
+                        <input type="text" class="form-control" name="Logradouro" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Cidade</label>
+                        <input type="text" class="form-control" name="Cidade" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Estado</label>
+                        <input type="text" class="form-control" name="Estado" required />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-2">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tabela de Endereços -->
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Endereço</th>
+            <th>CEP</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var endereco in Model.Enderecos)
+        {
+            <tr>
+                <td>@endereco.Logradouro</td>
+                <td>@endereco.CEP</td>
+                <td>@endereco.Cidade</td>
+                <td>@endereco.Estado</td>
+                <td>
+                    <!-- Botão Editar com Modal -->
+                    <button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#modalEditarEndereco-@endereco.Id">Editar</button>
+
+                    <!-- Modal de Edição de Endereço -->
+                    <div class="modal fade" id="modalEditarEndereco-@endereco.Id" tabindex="-1" aria-labelledby="modalEditarEnderecoLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Editar Endereço</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form asp-controller="Endereco" asp-action="Editar" method="post">
+                                        <input type="hidden" name="PessoaId" value="@Model.Pessoa.Id" />
+                                        <input type="hidden" name="Id" value="@endereco.Id" />
+
+                                        <div class="form-group">
+                                            <label>Logradouro</label>
+                                            <input type="text" class="form-control" name="Logradouro" value="@endereco.Logradouro" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>CEP</label>
+                                            <input type="number" class="form-control" name="CEP" value="@endereco.CEP" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Cidade</label>
+                                            <input type="text" class="form-control" name="Cidade" value="@endereco.Cidade" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Estado</label>
+                                            <input type="text" class="form-control" name="Estado" value="@endereco.Estado" required />
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary mt-2">Salvar Alterações</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botão Excluir -->
+                    <form method="post" asp-action="Excluir" asp-controller="Endereco" style="display:inline;">
+                        <input type="hidden" name="Id" value="@endereco.Id" />
+                        <input type="hidden" name="PessoaId" value="@Model.Pessoa.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Tem certeza que deseja excluir este endereço?');">Excluir</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
